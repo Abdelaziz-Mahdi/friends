@@ -1,0 +1,34 @@
+  <div class="col-sm-6 mb-3">
+    <div class="card">
+      <div class='card-body' id="<%= dom_id friend %>">
+        <p>
+          <strong>First name:</strong>
+          <%= friend.First_Name %>
+        </p>
+
+        <p>
+          <strong>Last name:</strong>
+          <%= friend.Last_Name %>
+        </p>
+
+        <p>
+          <strong>Email:</strong>
+          <%= friend.Email %>
+        </p>
+
+        <p>
+          <strong>Phone:</strong>
+          <%= friend.Phone %>
+        </p>
+
+        <p>
+          <strong>Twitter:</strong>
+          <%= friend.Twitter %>
+        </p>
+
+        <p>
+          <%= link_to "Show this friend", friend %>
+        </p>
+      </div>
+    </div>
+  </div>
